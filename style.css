@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #222;
+}
+
+.card {
+  width: 90%;
+  color: #fff;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  margin: 100px auto;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search input {
+  border-radius: 5px;
+  border: 0;
+  outline: o;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 25px;
+}
+
+.weather-pic {
+  margin-top: 30px;
+  width: 170px;
+}
+
+.main-section h1 {
+  font-size: 5.5rem;
+  font-weight: 500;
+}
+
+.main-section h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.text-h {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.det {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.det img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.hum,
+.wind {
+  font-size: 1.7rem;
+  margin-top: -6px;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  display: none;
+}

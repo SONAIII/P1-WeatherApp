@@ -7,6 +7,42 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          id="city"
+          placeholder="Enter city name"
+          spellcheck="false"
+        />
+        <button><img src="img/search.png" alt="" /></button>
+      </div>
+      <div class="error">Invalid City Name</div>
+      <main class="weather">
+        <div class="main-section">
+          <img src="img/clear.png" alt="" class="weather-pic" />
+          <h1 class="temperature">22°C</h1>
+          <h2 class="city">New York</h2>
+        </div>
+        <div class="info">
+          <section class="det">
+            <img class="det-img" src="img/humidity.png" alt="" />
+            <div class="text">
+              <p class="hum">50%</p>
+              <p>Humidity</p>
+            </div>
+          </section>
+          <section class="det">
+            <img class="det-img" src="img/wind.png" alt="" />
+            <div class="text">
+              <p class="wind">5.66 km/h</p>
+              <p>wind</p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
     <script src="scripts.js"></script>
   </body>
 </html>
